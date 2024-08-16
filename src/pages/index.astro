@@ -6,52 +6,13 @@ import siteConfig from '@/site-config'
 <BaseLayout description={siteConfig.description}>
   <article class="prose">
     <div class="flex justify-center items-center">
-      <img class="rounded-full w-50 h-50" src="/zzy.png" alt="self head" />
+      <img
+        class="rounded-full w-50 h-50"
+        src="/zzy-sunglasses.png"
+        alt="self head"
+      />
     </div>
-    <h1 class="text-title">Zzy</h1>
-    <p>
-      我叫zzy，是一名计算机专业的学生，对前端技术充满热情，并且热衷于提升自己的技术能力。
-    </p>
-    <p>
-      该网站使用 <a href="https://astro.build/">Astro</a> 搭建。构建模板来自于<b
-        >@kieranwong9865/astro-theme-vitesse</b
-      >， 参考<a target="_blank" href="https://antfu.me">antfu.me</a
-      >(大神)，同时他也是我在编程道路上的偶像。
-    </p>
-    <p>以下是我目前掌握或者了解过的<b>技术栈</b>：</p>
-    <ul>
-      <li>Java</li>
-      <li>Python</li>
-      <li>JavaScript, TypeScript, HTML & CSS</li>
-      <li>Vue, Astro</li>
-      <li>Markdown, Git</li>
-    </ul>
-    <p>
-      By the way, this theme use the <a
-        target="_blank"
-        href="https://unocss.dev/">UnoCSS</a
-      > for style, it's fast.
-    </p>
-    <p>
-      Visit it
-      <a
-        target="_blank"
-        href="https://github.com/kevinwong865/astro-theme-vitesse"
-      >
-        on GitHub
-      </a>
-      to fork the repository, read the docs or one-click deploy on Netlify.
-    </p>
-    <p>
-      If you like Vitesse theme for Astro, please
-      <a target="_blank" href="https://github.com/kevinwong865">
-        click follow
-      </a>
-      for me.
-    </p>
-    <hr class="hr-line" />
-    <p>Find me on</p>
-    <p class="flex gap-x-4 gap-y-2 flex-wrap">
+    <p class="flex justify-center items-center gap-x-4 gap-y-2 flex-wrap">
       {
         siteConfig.socialLinks.map((link) => (
           <a
@@ -66,6 +27,33 @@ import siteConfig from '@/site-config'
         ))
       }
     </p>
+    <div style="display: none">
+      <!--帮助渲染图标，不知道原因-->
+      <span class="i-mdi-github"></span>
+      <span class="i-mdi-email"></span>
+      <span class="i-mdi-wechat"></span>
+      <span class="i-ant-design-qq-outlined"></span>
+    </div>
+    <h1 class="text-title">Zzy</h1>
+    <p>
+      <b>zzy</b>, a full-stack development engineer, is passionate about
+      front-end technologies and has a passion for technical learning. The
+      website is built using <a href="https://astro.build/">Astro</a>
+      and the template is from
+      <a href="https://github.com/kieranwong9865/astro-theme-vitesse"
+        >kieranwong9865/astro-theme-vitesse</a
+      >. The style design refers to <a target="_blank" href="https://antfu.me"
+        >antfu.me</a
+      >. And he is also my worshiper on the programming path.
+    </p>
+    <p>The technology stacks I'm familiar with or knew:</p>
+    <ul>
+      <li>Java, Python, JavaScript, TypeScript</li>
+      <li>Vue, Astro</li>
+      <li>HTML & CSS</li>
+      <li>Markdown, Git</li>
+    </ul>
+
     <p>
       If you have any questions, please email me at
       <a

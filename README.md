@@ -70,7 +70,6 @@ Like this:
 
 ```json
 {
-  // ...
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
   },
@@ -90,7 +89,6 @@ Like this:
 
 ```json
 {
-  // ...
   "simple-git-hooks": {
     "pre-commit": "yarn lint-staged"
   },

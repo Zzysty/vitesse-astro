@@ -1,6 +1,6 @@
 export const siteConfig = {
   author: 'zzy',
-  title: 'Vitesse theme for Astro',
+  title: 'zzy\'s site',
   subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
   description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
   image: {
@@ -11,35 +11,28 @@ export const siteConfig = {
   socialLinks: [
     {
       text: 'GitHub',
-      href: '',
-      icon: 'i-simple-icons-github',
-      header: 'i-ri-github-line',
+      href: 'https://github.com/Zzysty',
+      icon: 'i-mdi-github',
     },
     {
-      text: 'Twitter',
-      href: '',
-      icon: 'i-simple-icons-x',
-      header: 'i-ri-twitter-x-line',
+      text: 'Email',
+      href: '17573204410@163.com',
+      icon: 'i-mdi-email',
     },
     {
-      text: 'Linkedin',
-      href: '',
-      icon: 'i-simple-icons-linkedin',
+      text: 'Wechat',
+      href: '17573204410',
+      icon: 'i-mdi-wechat',
     },
     {
-      text: 'Instagram',
-      href: '',
-      icon: 'i-simple-icons-instagram',
-    },
-    {
-      text: 'Youtube',
-      href: '',
-      icon: 'i-simple-icons-youtube',
+      text: 'QQ',
+      href: '1184271384',
+      icon: 'i-ant-design-qq-outlined',
     },
   ],
   header: {
     logo: {
-      src: '/favicon.svg',
+      src: '/favicon-32.svg',
       alt: 'Logo Image',
     },
     navLinks: [
