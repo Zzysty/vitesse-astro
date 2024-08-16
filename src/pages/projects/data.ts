@@ -2,40 +2,45 @@ import type { ProjectData } from '@/types'
 
 export const projectData: ProjectData = [
   {
-    title: 'Projects Group',
+    title: '练习项目',
     projects: [
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },
     ],
   },
   {
-    title: 'Projects Group',
+    title: '课题项目',
     projects: [
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },
@@ -50,25 +55,29 @@ export const projectData: ProjectData = [
     projects: [
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },
@@ -79,7 +88,8 @@ export const projectData: ProjectData = [
     projects: [
       {
         text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
+        description:
+          'Your project description information is a long piece of text.',
         icon: 'i-carbon-campsite',
         href: '/',
       },

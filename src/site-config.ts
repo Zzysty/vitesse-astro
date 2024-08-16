@@ -7,7 +7,9 @@ export const siteConfig = {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
+  email163: '17573204410@163.com',
+  emailqq: '1184271384@qq.com',
+  gmail: 'zzyisyyds@gmail.com',
   socialLinks: [
     {
       text: 'GitHub',
@@ -15,12 +17,19 @@ export const siteConfig = {
       icon: 'i-mdi-github',
     },
     {
-      text: 'Email',
-      href: '17573204410@163.com',
-      icon: 'i-mdi-email',
+      text: '编程导航',
+      href: 'https://www.code-nav.cn/user/1634088558341971970/info',
+      icon: 'i-mdi-code-json',
     },
     {
-      text: 'Wechat',
+      text: '哔哩哔哩',
+      href: 'https://space.bilibili.com/174414101?spm_id_from=333.1007.0.0',
+      icon: 'i-ant-design-bilibili-outlined',
+    },
+  ],
+  userInfo: [
+    {
+      text: '微信',
       href: '17573204410',
       icon: 'i-mdi-wechat',
     },
@@ -36,18 +45,18 @@ export const siteConfig = {
       alt: 'Logo Image',
     },
     navLinks: [
-      {
-        text: 'Blog',
-        href: '/blog',
-      },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
+      // {
+      //   text: "Blog",
+      //   href: "/blog",
+      // },
+      // {
+      //   text: "Notes",
+      //   href: "/blog/notes",
+      // },
+      // {
+      //   text: "Talks",
+      //   href: "/blog/talks",
+      // },
       {
         text: 'Projects',
         href: '/projects',
@@ -72,21 +81,17 @@ export const siteConfig = {
   },
   footer: {
     navLinks: [
-      {
-        text: 'Posts Props',
-        href: '/posts-props',
-      },
-      {
-        text: 'Markdown Style',
-        href: '/md-style',
-      },
-      {
-        text: 'View on Astro',
-        href: 'https://astro.build/themes/details/vitesse-theme-for-astro/',
-      },
+      // {
+      //   text: "Posts Props",
+      //   href: "/posts-props",
+      // },
+      // {
+      //   text: "Markdown Style",
+      //   href: "/md-style",
+      // },
       {
         text: 'GitHub Repository',
-        href: 'https://github.com/kevinwong865/astro-theme-vitesse',
+        href: 'https://github.com/Zzysty/vitesse-astro',
       },
     ],
   },

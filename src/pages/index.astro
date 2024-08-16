@@ -26,10 +26,27 @@ import siteConfig from '@/site-config'
           </a>
         ))
       }
+      {
+        siteConfig.userInfo.map((link) => (
+          <a
+            aria-label={link.text}
+            target="_blank"
+            class="prose-link group relative inline-block"
+          >
+            <i class={[link.icon]} />
+            {link.text}
+            <span class="absolute bottom-full left-1/2 -translate-x-1/2 -mt-2 hidden group-hover:block rounded-md bg-gray-900 px-2 py-1 text-white">
+              {link.href}
+            </span>
+          </a>
+        ))
+      }
     </p>
     <div style="display: none">
       <!--帮助渲染图标，不知道原因-->
       <span class="i-mdi-github"></span>
+      <span class="i-mdi-code-json"></span>
+      <span class="i-ant-design-bilibili-outlined"></span>
       <span class="i-mdi-email"></span>
       <span class="i-mdi-wechat"></span>
       <span class="i-ant-design-qq-outlined"></span>
@@ -58,10 +75,10 @@ import siteConfig from '@/site-config'
       If you have any questions, please email me at
       <a
         prose-link
-        aria-label={siteConfig.email}
-        href={`mailto:${siteConfig.email}`}
+        aria-label={siteConfig.email163}
+        href={`mailto:${siteConfig.email163}`}
       >
-        {siteConfig.email}
+        {siteConfig.email163}
       </a>.
     </p>
   </article>
