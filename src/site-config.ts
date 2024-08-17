@@ -1,6 +1,6 @@
 export const siteConfig = {
   author: 'zzy',
-  title: 'zzy\'s site',
+  title: 'Zzy profile',
   subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
   description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
   image: {
@@ -45,10 +45,10 @@ export const siteConfig = {
       alt: 'Logo Image',
     },
     navLinks: [
-      // {
-      //   text: "Blog",
-      //   href: "/blog",
-      // },
+      {
+        text: 'Blog',
+        href: '/blog',
+      },
       // {
       //   text: "Notes",
       //   href: "/blog/notes",

@@ -6,7 +6,7 @@ import ListProjects from '@/components/ListProjects.vue'
 
 <BaseLayout title="Projects" description="List of projects that I am proud of">
   <h1 class="mb-10 text-title">Projects 项目经历</h1>
-  <div mb-16 sm:mb-24>
+  <div class="mb-16 sm:mb-24">
     {
       projectData.length > 0 && (
         <div>
@@ -23,5 +23,14 @@ import ListProjects from '@/components/ListProjects.vue'
         </div>
       )
     }
+  </div>
+  <div style="display: none">
+    <!--帮助渲染图标，不知道原因-->
+    <span class="i-mdi-book-edit"></span>
+    <span class="i-mdi-api"></span>
+    <span class="i-ant-design-bilibili-outlined"></span>
+    <span class="i-mdi-email"></span>
+    <span class="i-mdi-wechat"></span>
+    <span class="i-ant-design-qq-outlined"></span>
   </div>
 </BaseLayout>
