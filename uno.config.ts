@@ -64,5 +64,10 @@ export default defineConfig({
     'i-mdi-code-json',
     'i-mdi-api',
     'i-mdi-book-edit',
+    'i-ant-design-yuque-outlined',
+    'i-ant-design-tik-tok-outlined',
+    'i-simple-icons-graphql',
+    'i-simple-icons-cnn',
+    'i-simple-icons-databricks',
   ],
 })

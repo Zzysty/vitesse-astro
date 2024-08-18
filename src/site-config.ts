@@ -15,6 +15,7 @@ export const siteConfig = {
       text: 'GitHub',
       href: 'https://github.com/Zzysty',
       icon: 'i-simple-icons-github',
+      header: 'i-ri-github-line',
     },
     {
       text: '编程导航',
@@ -25,6 +26,11 @@ export const siteConfig = {
       text: '哔哩哔哩',
       href: 'https://space.bilibili.com/174414101?spm_id_from=333.1007.0.0',
       icon: 'i-simple-icons-bilibili',
+    },
+    {
+
+      href: 'https://www.zhihu.com/people/zhu-yi-yu-94-01',
+      icon: 'i-simple-icons-zhihu',
     },
   ],
   userInfo: [
@@ -49,17 +55,34 @@ export const siteConfig = {
         text: 'Blog',
         href: '/blog',
       },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
+      // {
+      //   text: 'Notes',
+      //   href: '/blog/notes',
+      // },
       // {
       //   text: 'Talks',
       //   href: '/blog/talks',
       // },
       {
-        text: 'Projects',
-        href: '/projects',
+        text: 'Project',
+        href: '/project',
+      },
+    ],
+    socialLinks: [
+      {
+        text: 'GitHub',
+        href: 'https://github.com/Zzysty/vitesse-astro',
+        header: 'i-ri-github-line',
+      },
+      {
+        text: '语雀',
+        href: 'https://www.yuque.com/dashboard',
+        header: 'i-ant-design-yuque-outlined',
+      },
+      {
+        text: '飞书',
+        href: 'https://maeet2p2ooi.feishu.cn/drive/home/',
+        header: 'i-ant-design-tik-tok-outlined',
       },
     ],
   },
@@ -81,18 +104,18 @@ export const siteConfig = {
   },
   footer: {
     navLinks: [
-      {
-        text: 'Posts Props',
-        href: '/posts-props',
-      },
-      {
-        text: 'Markdown Style',
-        href: '/md-style',
-      },
-      {
-        text: 'GitHub Repository',
-        href: 'https://github.com/Zzysty/vitesse-astro',
-      },
+      // {
+      //   text: 'Posts Props',
+      //   href: '/posts-props',
+      // },
+      // {
+      //   text: 'Markdown Style',
+      //   href: '/md-style',
+      // },
+      // {
+      //   text: 'GitHub Repository',
+      //   href: 'https://github.com/Zzysty/vitesse-astro',
+      // },
     ],
   },
 }

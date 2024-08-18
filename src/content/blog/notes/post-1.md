@@ -1,8 +1,12 @@
 ---
-title: Note Title
-description: Your blog description, which is long text, can be an introduction to the post or a paragraph of the post.
-duration: 5min
-date: 2022-12-01
+title: 笔记
+description: 笔记使用语雀知识库进行记录
+date: 2024-08-18
 ---
 
-Use [Vitesse Them for Astro](https://astro.build/themes/details/vitesse-theme-for-astro/) to start writing your blog posts.
+>语雀地址: [https://www.yuque.com/dashboard](https://www.yuque.com/dashboard)
+- 知识库List
+  - 论文笔记
+  - Java知识点
+  - **实习**
+    - 理诚科技工作记录

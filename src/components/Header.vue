@@ -8,7 +8,7 @@ import { getLinkTarget } from '@/utils/link'
 const navLinks = siteConfig.header.navLinks || []
 
 const socialLinks = computed(() => {
-  return siteConfig.socialLinks.filter((link: Record<string, any>) => {
+  return siteConfig.header.socialLinks.filter((link: Record<string, any>) => {
     if (link.header && typeof link.header === 'boolean') {
       return link
     }
