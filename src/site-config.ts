@@ -14,7 +14,7 @@ export const siteConfig = {
     {
       text: 'GitHub',
       href: 'https://github.com/Zzysty',
-      icon: 'i-mdi-github',
+      icon: 'i-simple-icons-github',
     },
     {
       text: '编程导航',
@@ -24,7 +24,7 @@ export const siteConfig = {
     {
       text: '哔哩哔哩',
       href: 'https://space.bilibili.com/174414101?spm_id_from=333.1007.0.0',
-      icon: 'i-ant-design-bilibili-outlined',
+      icon: 'i-simple-icons-bilibili',
     },
   ],
   userInfo: [
@@ -49,13 +49,13 @@ export const siteConfig = {
         text: 'Blog',
         href: '/blog',
       },
+      {
+        text: 'Notes',
+        href: '/blog/notes',
+      },
       // {
-      //   text: "Notes",
-      //   href: "/blog/notes",
-      // },
-      // {
-      //   text: "Talks",
-      //   href: "/blog/talks",
+      //   text: 'Talks',
+      //   href: '/blog/talks',
       // },
       {
         text: 'Projects',
@@ -73,22 +73,22 @@ export const siteConfig = {
         text: 'Notes',
         href: '/blog/notes',
       },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
+      // {
+      //   text: 'Talks',
+      //   href: '/blog/talks',
+      // },
     ],
   },
   footer: {
     navLinks: [
-      // {
-      //   text: "Posts Props",
-      //   href: "/posts-props",
-      // },
-      // {
-      //   text: "Markdown Style",
-      //   href: "/md-style",
-      // },
+      {
+        text: 'Posts Props',
+        href: '/posts-props',
+      },
+      {
+        text: 'Markdown Style',
+        href: '/md-style',
+      },
       {
         text: 'GitHub Repository',
         href: 'https://github.com/Zzysty/vitesse-astro',
