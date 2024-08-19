@@ -1,10 +1,10 @@
 export const siteConfig = {
   author: 'zzy',
-  title: 'Zzy profile',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
-  description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
+  title: 'zzy',
+  subtitle: '',
+  description: '',
   image: {
-    src: '/hero.jpg',
+    src: '',
     alt: 'Website Main Image',
   },
   email163: '17573204410@163.com',
@@ -12,35 +12,34 @@ export const siteConfig = {
   gmail: 'zzyisyyds@gmail.com',
   socialLinks: [
     {
-      text: 'GitHub',
+      text: 'Github',
       href: 'https://github.com/Zzysty',
       icon: 'i-simple-icons-github',
       header: 'i-ri-github-line',
     },
     {
-      text: '编程导航',
+      text: 'Code-nav',
       href: 'https://www.code-nav.cn/user/1634088558341971970/info',
-      icon: 'i-mdi-code-json',
+      icon: 'i-solar-code-square-linear',
     },
     {
-      text: '哔哩哔哩',
+      text: 'Bilibili',
       href: 'https://space.bilibili.com/174414101?spm_id_from=333.1007.0.0',
       icon: 'i-simple-icons-bilibili',
     },
-    {
-
-      href: 'https://www.zhihu.com/people/zhu-yi-yu-94-01',
-      icon: 'i-simple-icons-zhihu',
-    },
+    // {
+    //   href: 'https://www.zhihu.com/people/zhu-yi-yu-94-01',
+    //   icon: 'i-simple-icons-zhihu',
+    // },
   ],
   userInfo: [
     {
-      text: '微信',
+      text: 'Wechat',
       href: '17573204410',
       icon: 'i-mdi-wechat',
     },
     {
-      text: 'QQ',
+      text: 'QQ ',
       href: '1184271384',
       icon: 'i-ant-design-qq-outlined',
     },
@@ -65,7 +64,7 @@ export const siteConfig = {
       // },
       {
         text: 'Project',
-        href: '/project',
+        href: '/projects',
       },
     ],
     socialLinks: [

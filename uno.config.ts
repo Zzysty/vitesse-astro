@@ -69,5 +69,6 @@ export default defineConfig({
     'i-simple-icons-graphql',
     'i-simple-icons-cnn',
     'i-simple-icons-databricks',
+    'i-solar-code-square-linear',
   ],
 })
