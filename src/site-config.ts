@@ -65,7 +65,7 @@ export const siteConfig = {
       // },
       {
         text: 'Project',
-        href: '/project',
+        href: '/projects',
       },
     ],
     socialLinks: [

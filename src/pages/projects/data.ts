@@ -45,6 +45,7 @@ export const projectData: ProjectData = [
         description:
           '湖北、广东、北京、天津碳市场的最新数据，基于影刀RPA进行数据爬取',
         icon: 'i-simple-icons-databricks',
+        image: '/projects_img/carbon-dataset.png',
         href: '/',
       },
     ],

@@ -19,7 +19,7 @@ defineProps<{
     <li v-for="project in list" :key="project.text" container-link w-full flex flex-col items-center rd-2>
       <!-- Image Section -->
       <div w-full h-full flex items-center justify-center bg-gray-100 rd-2 mb-4>
-        <img v-if="project.image" :src="project.image" alt="project image">
+        <img v-if="project.image" w-full h-full object-cover :src="project.image" alt="project image">
       </div>
       <!-- Icon and Title Section -->
       <a flex items-center justify-start w-full target="_blank" :href="project.href" :aria-label="project.text">
