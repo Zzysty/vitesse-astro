@@ -113,7 +113,7 @@ function toggleNavDrawer() {
         v-for="link in socialLinks"
         :key="link.text"
         :aria-label="`${link.text}`"
-        :class="link.icon"
+        :class="link.header"
         nav-link
         :target="getLinkTarget(link.href)"
         :href="link.href"
