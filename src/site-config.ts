@@ -51,7 +51,7 @@ export const siteConfig = {
     },
     navLinks: [
       {
-        text: 'Blog',
+        text: '笔记',
         href: '/blog',
       },
       // {
@@ -63,7 +63,7 @@ export const siteConfig = {
       //   href: '/blog/talks',
       // },
       {
-        text: 'Project',
+        text: '项目成果',
         href: '/projects',
       },
     ],
